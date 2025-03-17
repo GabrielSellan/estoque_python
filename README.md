@@ -13,7 +13,7 @@ Controle de estoque em Python
 git clone https://github.com/GabrielSellan/estoque_python.git
 cd estoque_python
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/Scripts/activate
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
